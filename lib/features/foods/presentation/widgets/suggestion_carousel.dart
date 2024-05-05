@@ -16,7 +16,7 @@ class SuggestionCarousel extends StatelessWidget {
           return SectionCarousel(
             title: 'Suggestions',
             onTapButtonMore: () {},
-            list: contoroller.foodSuggestions,
+            foodList: contoroller.foodSuggestions,
           );
         },
       ),

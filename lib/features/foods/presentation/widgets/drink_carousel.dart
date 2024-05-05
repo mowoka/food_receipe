@@ -3,8 +3,8 @@ import 'package:food_recipe/features/foods/presentation/controllers/food_home_co
 import 'package:food_recipe/features/foods/presentation/widgets/section_carousel.dart';
 import 'package:get/get.dart';
 
-class LatesCarousel extends StatelessWidget {
-  const LatesCarousel({super.key});
+class DrinkCarousel extends StatelessWidget {
+  const DrinkCarousel({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,9 +12,10 @@ class LatesCarousel extends StatelessWidget {
       init: FoodHomeController(),
       builder: (contoroller) {
         return SectionCarousel(
-          title: 'Latest',
+          title: 'Drink',
           onTapButtonMore: () {},
-          foodList: contoroller.latestFood,
+          drinkList: contoroller.drinks,
+          isFood: false,
         );
       },
     );
