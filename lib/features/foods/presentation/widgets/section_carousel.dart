@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:food_recipe/core/domain/entities/food.dart';
 import 'package:food_recipe/core/presentation/widgets/food_inkwell.dart';
-import 'package:food_recipe/features/foods/domain/entities/food_listing_entity.dart';
 
 class SectionCarousel extends StatelessWidget {
   const SectionCarousel({

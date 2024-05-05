@@ -1,5 +1,5 @@
 import 'package:food_recipe/core/config/route_name.dart';
-import 'package:food_recipe/features/foods/presentation/routes/food_listing.dart';
+import 'package:food_recipe/features/foods/presentation/routes/food_home.dart';
 import 'package:get/route_manager.dart';
 
 class AppPage {

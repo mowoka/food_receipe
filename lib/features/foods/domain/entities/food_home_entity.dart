@@ -1,10 +1,6 @@
-class Food {
-  var name = '';
-  var image = '';
-  var author = '';
-}
+import 'package:food_recipe/core/domain/entities/food.dart';
 
-class FoodListingEntity {
+class FoodHomeEntity {
   List<Food> foodSuggestion = [
     Food()
       ..name = 'Indomie Goreng'
@@ -52,7 +48,7 @@ class FoodListingEntity {
     Food()
       ..name = 'Tempe Mendoan'
       ..image =
-          'https://cdnwpseller.gramedia.com/wp-content/uploads/2022/11/mendoan.jpg'
+          'https://akcdn.detik.net.id/visual/2019/05/15/aeec3484-03ee-4a13-acc1-78e680fe1e40_43.jpeg?w=720&q=90'
       ..author = "Riz Recipe Cooks",
     Food()
       ..name = 'Bebek Peking'
