@@ -1,0 +1,421 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Indomie Goreng",
+      "image": "https://img.lazcdn.com/g/p/8f019f3b170a4f1acb442446c0f5a4f8.jpg_720x720q80.jpg",
+      "author": "Giofany Recipe Cooks",
+      "ingredients": [
+        "1 bungkus mie goreng (recomend indomie goreng)",
+        "Daun bawang",
+        "Telur ayam",
+        "2 sachet saos ABC"
+      ],
+      "how_to_make": [
+        "Rebus mie hingga matang, Tiriskan",
+        "Potong daun bawang secukupnya",
+        "Tuangkan mie kedalam piring",
+        "Masak telur ceplok",
+        "Tuangkan bumbu & masukan saos",
+        "Aduk hingga rata",
+        "Sajikan mie beserta telur ceplok",
+        "Mie goreng siap sajikan"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Indomie Kuah",
+      "image": "https://www.dapurkobe.co.id/wp-content/uploads/mie-kuah-daging-sapi.jpg",
+      "author": "Giofany Recipe Cooks",
+      "ingredients": [
+        "1 bungkus mie kuah (recomend indomie soto)",
+        "Daun bawang",
+        "Telur ayam",
+        "3 butir rawit merah"
+      ],
+      "how_to_make": [
+        "Rebus mie & telur hingga matang, Tiriskan",
+        "Potong daun bawang secukupnya",
+        "Tuangkan mie kedalam piring",
+        "Tuangkan bumbu & potong cabai masukan kedalam piring",
+        "Aduk hingga rata",
+        "Sajikan mie beserta telur rebus",
+        "Mie kuah siap sajikan"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Ayam Geprek",
+      "image": "https://assets.promediateknologi.id/crop/0x0:0x0/750x0/webp/photo/2022/12/20/1468098160.jpg",
+      "author": "Giofany Recipe Cooks",
+      "ingredients": [
+        "Adonan Kering: 1/2 bungkus sasa tepung bumbu ala kentucky 225 gr",
+        "Adonan basah: 6 sdm tepung bumbu ala kentucky + air dingin ( perbandingan 1:2 )",
+        "500 gram daging ayam, bersihkan dan potong sesuai selera",
+        "Minyak goreng secukupnya untuk menggoreng",
+        "10 buah cabe rawit",
+        "5 siung bawang merah",
+        "3 siung bawang putih",
+        "1/2 sdt garam",
+        "Sasa bubuk MSG secukupnya",
+        "Air Secukupnya"
+      ],
+      "how_to_make": [
+        "Gulingkan ayam ke adonan kering, kemudian ke adonan basah, dan balur kembali ke adonan kering.",
+        "Tekan dan remas-remas",
+        "Siapkan wajan dan panaskan minyak dengan api sedang",
+        "Goreng ayam hingga berwarna kecoklatan dan crispy",
+        "Tiriskan ayam di atas kertas minyak untuk menghilangkan sisa minyak",
+        "Angkat ayam dan letakan di atas piring saji",
+        "Iris halus semua bahan ( cabe rawit, bawang merah, bawang putih ).",
+        "Haluskan semua bahan yang sudah diiris",
+        "Panaskan minyak dalam wajan",
+        "Masukan bahan yang sudah dihaluskan ke dalam wajan dan tumis hingga harum",
+        "Tambahkan air secukupnya dan aduk rata",
+        "Tambahkan garam, dan Sasa bubuk MSG, tes rasa.",
+        "Ambil cowet dan ulek ayam beserta bumbu",
+        "Tuangkan dan sajikan kedalam piring",
+        "Kamu sudah bisa makan ayam geprek dengan nasi"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Nasi Goreng Seafood",
+      "image": "https://www.dapurkobe.co.id/wp-content/uploads/nasi-goreng-seafood.jpg",
+      "author": "Giofany Recipe Cooks",
+      "ingredients": [
+        "2 Piring Nasi",
+        "1 butir Telur",
+        "5 buah bakso ikan",
+        "50 gram daging ayam",
+        "6 ekor undang ( ukuran sedang )",
+        "1 ekor cumi",
+        "2 batang daun bawang",
+        "2 sdm kecap ikan",
+        "1 sdm kecap manis",
+        "1 sdm saus tiram",
+        "1 sdt kecap asin",
+        "1/2 sdm gula",
+        "1/2 sdt merica bubuk",
+        "1/4 sdt penyedap",
+        "1 sdm margarin",
+        "2-3 sdm minyak goreng",
+        "3 siung bawang merah",
+        "2 siung bawang putih",
+        "1 buah cabai merah",
+        "3 buah cabai rawit"
+      ],
+      "how_to_make": [
+        "Cuci bersih udang dan cumi",
+        "Kupas lalu potong-potong cumi",
+        "Kupas udang dan buang kotorannya",
+        "Potong-potong daging ayam, bakso ikan dan daun bawang",
+        "Tuang 2 sdm minyak di dalam wajan, tumis ayam, udang dan cumi hingga berubah warna atau tampak matang",
+        "Masukan bakso ikan, tumis hingga kecoklatan dan agak kering",
+        "Kocok telur, tuang kedalam wajan, aduk orak-arik",
+        "Masukan nasi, aduk rata dengan semua bahan",
+        "Tes rasa, jika sudah pas, angkat",
+        "Sajikan kedalam sebuah piring, dan anda sudah bisa menyantapnya"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Nasi Ayam Bakar",
+      "image": "https://asset.kompas.com/crops/WLXYUAJdI7G9jtdJcSpIwB6jdrw=/0x0:5472x3648/750x500/data/photo/2020/10/23/5f92beba74bc8.jpg",
+      "author": "Giofany Recipe Cooks",
+      "ingredients": [
+        "800 gr (1 ekor) ayam utuh",
+        "4 lembar daun salam",
+        "2 buah batang serai",
+        "20 gr asam jawa, larutkan dengan 3 sdm air panas",
+        "500 ml santan",
+        "2 sdm minyak, untuk menumis",
+        "10 butir bawang merah",
+        "5 siung bawang putih",
+        "1 sdm ketumbar, sangrai",
+        "5 buah kemiri",
+        "1/2 sdt merica bubuk",
+        "3 cm kunyit",
+        "50 gr gula merah, sisir halus",
+        "1 sdt garam",
+        "1 sdt gula pasir",
+        "1 sdm kecap manis"
+      ],
+      "how_to_make": [
+        "Panaskan minyak, tumis bumbu halus, daun salam, dan serai hingga harum",
+        "Masukan air larutan asam jawa dan ayam, aduk rata",
+        "Tuangkan santan, adkuk perlahan agar santan tidak pecah",
+        "Masak hingga santan meresap dan ayam empuk. angkat dan sisihkan",
+        "Panaskan wajan, panggan ayam sambil diolesi bumbu halus dan kecap. Panggan hingga berwarna kecoklatan",
+        "Angkat dan sajikan"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Salad Buah Madu",
+      "image": "https://static.promediateknologi.id/crop/0x163:1080x1937/750x500/webp/photo/p1/1005/2023/12/14/Screenshot_20231214_060922_Instagram-2871270438.jpg",
+      "author": "Giofany Recipe Cooks",
+      "ingredients": [
+        "80 ml mayonnaise",
+        "4 sdm madu",
+        "50 ml susu frisian flags",
+        "1 buah apel",
+        "1 buah pir",
+        "1/2 buah jeruk nipis",
+        "Anggur (secukupnya)",
+        "1 potong semangka (ukuran sedang)"
+      ],
+      "how_to_make": [
+        "Buat saus dengan cara mencampur mayonnaise, susu kental manis, dan madu",
+        "Pastikan saus tercampur rata dan dinginkan kedalam kulkas",
+        "Potong dadu buah apel & pir rendam kedalam air dengan campuran jeruk nipis",
+        "Potong dadu buah semangka",
+        "Sajikan semua buah kedalam sebuah manggkuk saji",
+        "Tuang saus atau dressing salad madu dan aduk secara perlahan",
+        "Salan buah sudah siap disantap"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Seblak Kerupuk",
+      "image": "https://www.blibli.com/friends-backend/wp-content/uploads/2021/06/2096146653.jpeg",
+      "author": "Giofany Recipe Cooks",
+      "ingredients": [
+        "100 gram kerupuk aci",
+        "7 lembar dau caisim / sawi hijau",
+        "5 butir bakso sapi",
+        "1 butir telur",
+        "Air secukupnya",
+        "Garam & gula secukupnya",
+        "2 ruas kencur",
+        "2 butir bawang merah",
+        "1 butir bawang putih",
+        "5 buah cabe rawit merah ( sesuai selera pedas )",
+        "3 buah cabe keriting merah"
+      ],
+      "how_to_make": [
+        "Rendam dulu kerupuk dengan air biasa += 30 menit",
+        "Potong dau caisim dan bakso sapi sesuai selera",
+        "Haluskan bumbu lalu tumis hingga harum",
+        "Tambahkan air 1 gelas, tunggu sampai mendidih",
+        "Masukan telur yang sudah di kocok",
+        "Masukan kerupuk, bakso caisim, serta gula & garam",
+        "Masak hingga matang",
+        "Tes rasa",
+        "Sajikan kedalam piring, dan seblak sudah bisa di santap"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Takoyaki",
+      "image": "https://www.finedininglovers.com/sites/g/files/xknfdk626/files/styles/open_graph_image/public/2022-09/takoyaki-recipe%C2%A9iStock.jpg?itok=wQVSutbE",
+      "author": "Riz Recipe Cooks",
+      "ingredients": [
+        "150 gr tepung terigu",
+        "1 sdm tepung maizena",
+        "2 butir telur kocok lepas",
+        "100 ml susu cair",
+        "350 ml air",
+        "1/2 sdt baking soda",
+        "1 sdm kecap asin",
+        "2 batang daun bawang, potong-potong",
+        "crab stick secukupnya, potong-potong",
+        "gurita, potong-potong",
+        "garam secukupnya"
+      ],
+      "how_to_make": [
+        "Campurkan semua bahan hingga jadi adonan kental kecuali gurita & crab stick.",
+        "Diamkan kurang lebih satu jam",
+        "Panaskan penggorengan untuk takoyaki.",
+        "Olesi margarin dan tuang adonan setiap cetakan separuh bagian",
+        "Isi dengan gurita dan crab stick",
+        "Tuangkan lagi adonan hingga cetakan penuh",
+        "Masak hingga matang",
+        "Jika sudah matang di kedua sisi, takoyaki angkat dan siapkan dengan saus cabai, tomat atau mayonnaise"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Tempe Mendoan",
+      "image": "https://images.tokopedia.net/img/KRMmCm/2024/2/19/23ae3c0e-b715-4fbb-ba00-efea8421b840.jpg",
+      "author": "Riz Recipe Cooks",
+      "ingredients": [
+        "3 Bungkus tempe mendoan",
+        "Minyak goreng untuk menggoreng",
+        "5 siung bawang putih",
+        "1 sdt ketumbar",
+        "4 kemiri",
+        "1 cm kunyit",
+        "2 batang daun bawang iris tipis",
+        "150 gr tepung terigu",
+        "30 gr tepung beras",
+        "Garam secukupnya",
+        "Kaldu bubuk secukupnya",
+        "270 ml air"
+      ],
+      "how_to_make": [
+        "Siapkan tempe khusus tempe mendoan.",
+        "1 bungkus isi 2 lembar tempe mendoan, pakai 3 bungkus sangrai ketumbar",
+        "Haluskan bumbu halus tempatkan tepung terigu dan tepung beras dalam wadah bumbui dengan garam dan bubuk kaldu.",
+        "Masukan bumbu halus dan irisan daun bawang.",
+        "Tuangkan air sambil di aduk merata.",
+        "Celupkan tempe ke bahan pencelup.",
+        "Goreng dengan minyak panas dan api besar.",
+        "Goreng sebentar dengan 1 kali balik.",
+        "Angkat dan tiriskan",
+        "Potong cabe dan hancurkan bawang goreng.",
+        "Tambahkan kecap, dan tempe mendoan siap disajikan."
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Bebek Peking",
+      "image": "https://www.unileverfoodsolutions.co.id/dam/ufs-id/recipes/Peking%20Duck.jpg",
+      "author": "Riz Recipe Cooks",
+      "ingredients": [
+        "1 ekor bebek muda ukurang sedang",
+        "Jeruk nipis / lemon secukupnya",
+        "2 batang serai",
+        "Garam secukupnya",
+        "3 sdm madu",
+        "3 sdm kecap manis",
+        "2 sdm kecap asin",
+        "1 ruas jahe, parut",
+        "1 sdm minyak wijen",
+        "1/2 sdt garam",
+        "4 sdm kecap asin",
+        "3 sdm kecap manis",
+        "2 sdm minyak zaitun",
+        "1 sdt minyak wijen",
+        "4 buah cabai rawit",
+        "1 ruas jahe, iris tipis"
+      ],
+      "how_to_make": [
+        "Cuci bersih bebek utuh",
+        "Lumuri bebek dengan jeruk nipis secukupnya atau cuka makan untuk menghilangkan aroma.",
+        "Diamkan selama 2 jam di kulkas",
+        "Bilas bersih, tiriskan, rebus air",
+        "Masukan garam dan serai yang sudah dimemarkan, masak selama 20 menit",
+        "Tiriskan bebek",
+        "Campurkan semua bumbu marinasi, Lumuri merata pada bebek",
+        "Simpan di kulkas selama 3 jam",
+        "Panaskan oven, siapkan loyang yang bisa dijadikan tatakan sehingga ari dari bebek bisa menetes dan bebek jadi lebih kering saat sudah matang.",
+        "Bisa juga sesekali dibalik untuk memastikan bebek matang merata",
+        "Jika sudah matang dan kering, angkat dan dinginkan",
+        "Untuk saus, masak sebentar semua bahan dalan teflon.",
+        "Jika rasanya sudah menyatu, angkat dan sajikan",
+        "Potong bebek peking dan makan dengan menggunakan saus"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Mie Ayam Bakso",
+      "image": "https://asset.kompas.com/crops/0UaKVhdG8uQRDiCMh3a9qBJpBPY=/0x0:1000x667/750x500/data/photo/2021/03/26/605d538c24900.jpeg",
+      "author": "Riz Recipe Cooks",
+      "ingredients": [
+        "500 gr mie basah",
+        "250 gr dada ayam potong kecil-kecil Bakso",
+        "Sawi, rebus sebentar",
+        "1 sdt ajinomoto",
+        "1 sdt merica bubuk",
+        "1 sdt minyak wijen",
+        "1 sdm kecap asin",
+        "1/2 sdm minyak sayur",
+        "1 sdm saus tiram",
+        "1 ruas jahe, geprek",
+        "Minyak goreng secukupnya",
+        "Gula secukupnya",
+        "Garam secukupnya",
+        "Bawang goreng",
+        "Daun bawang potong kecil-kecil",
+        "Krupuk pangsit",
+        "4 siung bawang merah, haluskan",
+        "3 siung bawang putih, haluskan"
+      ],
+      "how_to_make": [
+        "Tumis bawang merah dan bawang putih bersama minyak goreng sampai harum.",
+        "Masukan potongan ayam, campur dengan cacahan kulit ayam agar keluar minyak ayam",
+        "Setelah ditumis sampai berubah warna dan matang.",
+        "Masukan 1/2 sdm ajinomoto, sedikit gula, jahe geprek, saus tiram, 1/2 sdm minyak wijen, 1/2 sdt merica, garam",
+        "Setelah matang sempurna. Saring minyak ayamanya di wadah sendiri, ayamnya di taruh di wadah lain",
+        "Rebus air, setelah mendidih masukan mie tunggu sampai matang sambil siapkan bumbu mie",
+        "Siapkan mangkuk, berisi 1 sdm minyak ayam, 1/2 sdm minyak sayur, 1/2 sdm minyak wijen, 1 sdm kecap asin, 1/2 sdt ajinomoto, 1/2 sdt merica bubuk",
+        "Masukan mie yang sudah matang, aduk rata dengan bumbunya",
+        "Taruh sawi rebus, daging ayam, bakso diatas mie, taburkan daun bawang"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Kwetiau",
+      "image": "https://www.masakapahariini.com/wp-content/uploads/2020/09/kwetiau-goreng-seafood.jpg",
+      "author": "Riz Recipe Cooks",
+      "ingredients": [
+        "200 gr kwetiau kering",
+        "1 sdm minyak",
+        "3 sdm kecap manis",
+        "5 bawang merah",
+        "3 bawang putih",
+        "2 kemiri",
+        "2 butir telur",
+        "10 bakso, iris-iris",
+        "4 bonggol pakcoy",
+        "Tauge besar",
+        "2 sdm kecap manis",
+        "1 sdm saus tiram",
+        "Garam, kaldu bubuk, lada bubuk secukupnya"
+      ],
+      "how_to_make": [
+        "Rebus mie sampai matang, angkat, tiriskan",
+        "Masukan 3 sdm kecap manis, aduk rata, silahkan",
+        "Tumis bumbu halus sampai wangi matang",
+        "Masukan bakso, tumis hingga tercampur rata",
+        "Masukan 2 telur, aduk-aduk",
+        "Masukan kwetiauw, kecap manis, saus tiram, garam, kaldu bubuk, lada bubuk",
+        "Masukan pakcoy dan tauge, aduk-aduk",
+        "Koreksi rasa dan sajikan setelah matang"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Soup Kikil Sapi",
+      "image": "https://i.ytimg.com/vi/LtRDi-umepg/maxresdefault.jpg",
+      "author": "Riz Recipe Cooks",
+      "ingredients": [
+        "300 gr kikil sapi",
+        "150 gr daging sapi",
+        "3 cm kayu manis",
+        "2 cm jahe geprek",
+        "1 buah kentang",
+        "1 buah wortel",
+        "1 batang daun bawang",
+        "1 batang daun seledri",
+        "1 buah tomat hijau",
+        "1/2 biji pala",
+        "Garam dan kaldu bubuk secukupnya",
+        "Minyak secukupnya",
+        "Air secukupnya",
+        "5 siung bawang merah",
+        "3 siung bawang putih",
+        "1 sdt lada butir, tumbuk"
+      ],
+      "how_to_make": [
+        "Rebus daging sapi selama 30 menit hingga keluar minyak",
+        "Sambil dibuang busa yang mengapung di permukaan agar kaldunya bersih",
+        "Tiriskan dagingnya ang sudah matang, iris tipis",
+        "Sisihkan, Saring air kaldunya karena nanti akan dijadikan kaldu sop",
+        "Cuci bersih kikil, Rebus kikil sapi selama 20 menit",
+        "Tiriskan bilas bersih kikil sapi atau hingga hulang baunya",
+        "Ganti air rebusan kikil dengan air bersih.",
+        "Masukan 2 sdt garam dan 2 siung bawang putih geprek lalu presto hingga matang empuk kurang lebih 30 menit",
+        "Selagi menunggu, potong kentang & wortel",
+        "Rebus kuah kaldu hingga mendidih, masukan sayuran masak hingga matang",
+        "Masukan biji pala, jahe, dan kayu manis",
+        "Masukan daun bawang dan seledri yang sudah dipotong-potong, masak hingga sopnya sedap",
+        "Tumis bumbu halus hingga matang, angkat dan sisihkan",
+        "Masukan kikil ke dalam kuah kaldu, masak selama 5 menit",
+        "Masukan bumbu halus yang sudah di tumis, aduk rata dan angkat",
+        "Soup kikil sapi siap di sajikan"
+      ]
+    }
+  ]
+}
