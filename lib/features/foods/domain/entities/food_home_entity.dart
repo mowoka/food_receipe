@@ -49,7 +49,7 @@ class FoodHomeEntity {
     Food()
       ..name = 'Tempe Mendoan'
       ..image =
-          'https://akcdn.detik.net.id/visual/2019/05/15/aeec3484-03ee-4a13-acc1-78e680fe1e40_43.jpeg?w=720&q=90'
+          "https://images.tokopedia.net/img/KRMmCm/2024/2/19/23ae3c0e-b715-4fbb-ba00-efea8421b840.jpg"
       ..author = "Riz Recipe Cooks",
     Food()
       ..name = 'Bebek Peking'

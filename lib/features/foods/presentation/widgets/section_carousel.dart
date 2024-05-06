@@ -242,7 +242,10 @@ class ImageContent extends StatelessWidget {
     return SizedBox(
       height: 100,
       child: ClipRRect(
-        borderRadius: BorderRadius.circular(10),
+        borderRadius: const BorderRadius.only(
+          topLeft: Radius.circular(10),
+          topRight: Radius.circular(10),
+        ),
         child: Image.network(
           imageURL,
           fit: BoxFit.cover,

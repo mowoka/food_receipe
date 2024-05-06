@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_recipe/core/presentation/widgets/food_scaffold.dart';
 import 'package:food_recipe/features/foods/presentation/widgets/drink_carousel.dart';
 import 'package:food_recipe/features/foods/presentation/widgets/latest_carousel.dart';
 import 'package:food_recipe/features/foods/presentation/widgets/search_content.dart';
@@ -9,7 +10,7 @@ class FoodListing extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return FoodScaffold(
       body: Container(
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
