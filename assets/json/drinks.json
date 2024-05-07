@@ -1,0 +1,173 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Teh Manis",
+      "image": "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/akuratco/images/akurat_20181029123557_B6tXpj.jpg",
+      "author": "York Recipe",
+      "ingredients": [
+        "1 kantong teh celup aroma melati",
+        "250 ml air",
+        "Es batu secukupnya",
+        "1 sdm munjung gula pasir"
+      ],
+      "how_to_make": [
+        "Panaskan 100 ml air kemudian seduh teh hingga larut dan bewarna kemerahan",
+        "Tambahkan gula pasir ke seduhan teh, aduk rata hingga gula larut",
+        "Tambahkan air dan es batu secukupnya",
+        "Aduk rata kemudian sajikan"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Es Jeruk",
+      "image": "https://doktersehat.com/wp-content/uploads/2018/09/jus-jeruk.jpg",
+      "author": "York Recipe",
+      "ingredients": [
+        "5 buah jeruk peras ( bisa juga gunakan jeruk kasturi )",
+        "5 sdm gula pasir, larutkan dengan air panas secukupnya",
+        "Es batu secukupnya",
+        "Air es secukupnya"
+      ],
+      "how_to_make": [
+        "Peras semua jeruk, campur dengan air gula air es dan es batu secukupnya",
+        "Aduk secukupnya dan es jeruk peras siap sajikan dingin"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Es Kelapa Muda",
+      "image": "https://img.okezone.com/content/2019/02/18/320/2019457/segarnya-bisnis-es-kelapa-muda-berapa-modalnya-nnt169Ab0k.jpg",
+      "author": "York Recipe",
+      "ingredients": [
+        "1 buah kelapa muda",
+        "Es batu secukupnya",
+        "Air kelapa muda",
+        "Gula atau pemanis",
+        "Jeruk nipis atau lemon"
+      ],
+      "how_to_make": [
+        "Belah kelapa muda dengan pisau yang tajam",
+        "Keluarkan dagin kelapa muda, potong atau parut kelapa sesuai selera",
+        "Kemudian siapkan gelas, isi setengah gelas dengan es batu",
+        "Tuangkan air kelapa muda yang sudah dipisahkan kedalam gelas",
+        "Lalu beri tambahan daging kelapa muda yang sudah di potong atau di parut",
+        "Tambahkan jeruk nipis atau lemon sesuai selera",
+        "Es kelapa muda siap di sajikan"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Mojito Strawberry",
+      "image": "https://food-images.files.bbci.co.uk/food/recipes/strawberry_mojito_65484_16x9.jpg",
+      "author": "York Recipe",
+      "ingredients": [
+        "1 buah kelapa muda",
+        "Es batu secukupnya",
+        "Air kelapa muda",
+        "Gula atau pemanis",
+        "Jeruk nipis atau lemon"
+      ],
+      "how_to_make": [
+        "Tumbuk / hancurkan buah strawberry, 1 buah jeruk nipis yang di potong tipis dan separuh daun mint",
+        "Masukan dalam gelas, tambahkan air soda, gula, dan es batu",
+        "Tambahkan separuh daun min dan irisan jeruk nipis sebagai garnish",
+        "Minuman siap disajikan"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Lemon Squash",
+      "image": "https://cdn0-production-images-kly.akamaized.net/oRxRzLZOG-j6Ib-xelFYgl34VDA=/0x1954:3999x4208/469x260/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4221008/original/078296300_1668044646-svitlana-hclUIrSWwFE-unsplash.jpg",
+      "author": "York Recipe",
+      "ingredients": [
+        "2 buah lemon segar",
+        "1 kaleng air soda",
+        "Simple sytup secukupnya",
+        "Es batu secukupnya",
+        "1 buah lemon, iris setengah linkaran untuk garnish"
+      ],
+      "how_to_make": [
+        "Peras 2 buah lemon, sisihkan",
+        "Campur 250 gr gula pasri dan 2 gelas air untuk membuat simple syrup. Masak sampai air meyusut dan tersisa 1 gelas",
+        "Siapkan gelas dan isi dengan es batu",
+        "Tuangkan 1 gelas shoot air jeruk lemon",
+        "Masukan simple syrup sesuai selera",
+        "Tambahkan air soda sampai penuh",
+        "Hias gelas dengan garnish. Sajikan"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Strawberry Milkshake",
+      "image": "https://cdn0-production-images-kly.akamaized.net/NF-KflHMqGEGs15XhVbBUagRMaE=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2222139/original/062324200_1526928631-Strawberry-milkshake-esutta.jpg",
+      "author": "York Recipe",
+      "ingredients": [
+        "150 gr strawberry ( potong - potong )",
+        "250 ml susu cair",
+        "2 scopp es krim strawberry atau vanilla",
+        "1/2 sdt vanili cair",
+        "1-2 sdm gula cair atau sesuai selera",
+        "Es batu secukupnya"
+      ],
+      "how_to_make": [
+        "Siapkan belender, blender strawberry dengan separuh susu sampai halus & tercampur rata",
+        "Tambahkan semua sisa bahan, blender lagi hingga tercampur rata",
+        "Strawberry milkshake siap dinikmati"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Strawberry Smothie",
+      "image": "https://asset-2.tstatic.net/style/foto/bank/images/strawberry-smoothies_20170623_212658.jpg",
+      "author": "York Recipe",
+      "ingredients": [
+        "1 bungkus strawberry beku ( isi 15 biji )",
+        "225 ml susu cair rasa strawberry",
+        "Chia seed"
+      ],
+      "how_to_make": [
+        "Siapkan bahan bahan",
+        "Mauskan semua bahan kedalam blender, haluskan dengan kecepatan tinggi",
+        "Tuang ke gelas dan sajikan"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Latte Coffee",
+      "image": "https://d1r9hss9q19p18.cloudfront.net/uploads/2015/07/shutterstock_223511062.jpg",
+      "author": "York Recipe",
+      "ingredients": [
+        "2 sdt kopi instan hitam",
+        "50 ml air panas",
+        "150 ml susu segar",
+        "2 1/2 sdt gula pasir"
+      ],
+      "how_to_make": [
+        "Siapkan cangkir, isi dengan kopi instan dan tuang air panas, aduk rata",
+        "Masak susu cair jangan sampai mendidih ketika keluar gelembung kecil 2x matikan api nya atau ukur sampai suhu 60 derajat",
+        "Kocok susu dengan frech press kurang lebih 15 detik",
+        "Pindahkan pada milk jug, Hentakan jug jika ada keluar buble, untuk mengurai busa",
+        "Pouring, miringkan cangkir 45 derajat, tuang susu sambil digoyangkan milk jugnya ke cangkir espresso",
+        "Latte Coffee sudah siap di sajikan"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Black Coffee",
+      "image": "https://www.livofy.com/health/wp-content/uploads/2020/05/black-coffee.jpg",
+      "author": "York Recipe",
+      "ingredients": [
+        "1 tbsp black coffee grounds",
+        "1 tbsp sugar",
+        "200 ml boiling water"
+      ],
+      "how_to_make": [
+        "Grinder terlebih dahulu biji kopi yang sudah di siapkan",
+        "Sediakan Espresso Coffee",
+        "Tambahakan Air Bening panas",
+        "Black Coffee siap di sajikan"
+      ]
+    }
+  ]
+}

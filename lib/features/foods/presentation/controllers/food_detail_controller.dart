@@ -7,6 +7,7 @@ class FoodDetailController extends GetxController {
   final repo = FoodDetailRespositoryImpl();
 
   Rx<FoodDetailEntity> foodDetailEntity = FoodDetailEntity().obs;
+  Rx<bool> isLoading = false.obs;
 
   // init func
   late final GetFoodDetail getFoodDetail;
@@ -20,8 +21,10 @@ class FoodDetailController extends GetxController {
   }
 
   Future<void> getFoodDetailData({required int foodId}) async {
+    isLoading.value = true;
     final food = await getFoodDetail.execute(foodId: foodId);
     foodDetailEntity.value.data = food;
+    isLoading.value = false;
     update();
   }
 }
