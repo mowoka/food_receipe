@@ -12,6 +12,7 @@ class LatesCarousel extends StatelessWidget {
       init: FoodHomeController(),
       builder: (contoroller) {
         return SectionCarousel(
+          isLoading: contoroller.isLoading.value,
           title: 'Latest',
           onTapButtonMore: () {},
           foodList: contoroller.latestFood,

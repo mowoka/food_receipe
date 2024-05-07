@@ -12,6 +12,7 @@ class DrinkCarousel extends StatelessWidget {
       init: FoodHomeController(),
       builder: (contoroller) {
         return SectionCarousel(
+          isLoading: contoroller.isLoading.value,
           title: 'Drink',
           onTapButtonMore: () {},
           drinkList: contoroller.drinks,

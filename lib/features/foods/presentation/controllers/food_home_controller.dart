@@ -13,6 +13,7 @@ class FoodHomeController extends GetxController {
   RxList<Food> foodSuggestions = <Food>[].obs;
   RxList<Food> latestFood = <Food>[].obs;
   RxList<Drink> drinks = <Drink>[].obs;
+  Rx<bool> isLoading = false.obs;
 
   // init func
   late final GetFoodSuggestion getFoodSuggestion;
@@ -31,6 +32,8 @@ class FoodHomeController extends GetxController {
   }
 
   Future<void> getFoodListingData() async {
+    isLoading.value = true;
+
     final res = await Future.wait([
       getFoodSuggestion.execute(),
       getLatestFood.execute(),
@@ -41,6 +44,7 @@ class FoodHomeController extends GetxController {
     latestFood.value = res[1] as List<Food>;
     drinks.value = res[2] as List<Drink>;
 
+    isLoading.value = false;
     update();
   }
 }

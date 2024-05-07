@@ -14,6 +14,7 @@ class SuggestionCarousel extends StatelessWidget {
         init: FoodHomeController(),
         builder: (contoroller) {
           return SectionCarousel(
+            isLoading: contoroller.isLoading.value,
             title: 'Suggestions',
             onTapButtonMore: () {},
             foodList: contoroller.foodSuggestions,

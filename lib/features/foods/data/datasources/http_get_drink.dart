@@ -6,7 +6,7 @@ import 'package:food_recipe/core/data/models/drink_model.dart';
 const String jsonFilePath = 'assets/json/drinks.json';
 
 Future<List<DrinkModel>> httpGetDrink() async {
-  final res = await Future.delayed(const Duration(seconds: 2), () async {
+  final res = await Future.delayed(const Duration(seconds: 1), () async {
     final response = await rootBundle.loadString(jsonFilePath);
     final data = await json.decode(response);
     return data['data'];

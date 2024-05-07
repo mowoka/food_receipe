@@ -6,10 +6,12 @@ import 'package:food_recipe/core/domain/entities/drink.dart';
 import 'package:food_recipe/core/domain/entities/food.dart';
 import 'package:food_recipe/core/presentation/widgets/food_inkwell.dart';
 import 'package:get/get.dart';
+import 'package:skeletonizer/skeletonizer.dart';
 
 class SectionCarousel extends StatelessWidget {
   const SectionCarousel({
     super.key,
+    required this.isLoading,
     required this.title,
     required this.onTapButtonMore,
     this.isFood = true,
@@ -17,6 +19,7 @@ class SectionCarousel extends StatelessWidget {
     this.drinkList,
   });
 
+  final bool isLoading;
   final String title;
   final Function() onTapButtonMore;
   final List<Food>? foodList;
@@ -27,53 +30,57 @@ class SectionCarousel extends StatelessWidget {
   Widget build(BuildContext context) {
     final foods = foodList ?? [];
     final drinks = drinkList ?? [];
-    return Container(
-      margin: const EdgeInsets.only(top: 20),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.start,
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Padding(
-            padding: const EdgeInsets.symmetric(
-              vertical: 20,
-              horizontal: 30,
-            ),
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text(
-                  title,
-                  style: const TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.w600,
+
+    return Skeletonizer(
+      enabled: isLoading,
+      child: Container(
+        margin: const EdgeInsets.only(top: 20),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Padding(
+              padding: const EdgeInsets.symmetric(
+                vertical: 20,
+                horizontal: 30,
+              ),
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    title,
+                    style: const TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
-                ),
-                FoodInkWell(
-                  onTap: onTapButtonMore,
-                  child: Container(
-                    padding: const EdgeInsets.symmetric(
-                      vertical: 10,
-                      horizontal: 25,
-                    ),
-                    decoration: BoxDecoration(
-                      color: Colors.orangeAccent,
-                      borderRadius: BorderRadius.circular(20),
-                    ),
-                    child: const Text(
-                      'More',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.w700,
+                  FoodInkWell(
+                    onTap: onTapButtonMore,
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(
+                        vertical: 10,
+                        horizontal: 25,
+                      ),
+                      decoration: BoxDecoration(
+                        color: Colors.orangeAccent,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: const Text(
+                        'More',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.w700,
+                        ),
                       ),
                     ),
-                  ),
-                )
-              ],
+                  )
+                ],
+              ),
             ),
-          ),
-          if (isFood) FoodContent(list: foods) else DrinkContent(list: drinks)
-        ],
+            if (isFood) FoodContent(list: foods) else DrinkContent(list: drinks)
+          ],
+        ),
       ),
     );
   }
