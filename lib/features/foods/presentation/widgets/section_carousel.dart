@@ -1,7 +1,11 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
+import 'package:food_recipe/core/config/route_name.dart';
 import 'package:food_recipe/core/domain/entities/drink.dart';
 import 'package:food_recipe/core/domain/entities/food.dart';
 import 'package:food_recipe/core/presentation/widgets/food_inkwell.dart';
+import 'package:get/get.dart';
 
 class SectionCarousel extends StatelessWidget {
   const SectionCarousel({
@@ -146,33 +150,39 @@ class FoodContent extends StatelessWidget {
         itemCount: list.length,
         scrollDirection: Axis.horizontal,
         itemBuilder: (ctx, index) {
-          return Container(
-            margin: EdgeInsets.only(
-              left: index < 1 ? 30 : 8,
-              right: 8,
-            ),
-            width: 150,
-            decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(10),
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.grey.withOpacity(0.3),
-                    spreadRadius: 2,
-                    blurRadius: 1,
-                    offset: const Offset(0, 2),
-                  ),
-                ]),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [
-                ImageContent(imageURL: list[index].image),
-                const SizedBox(height: 8),
-                TitleContent(title: list[index].name),
-                const SizedBox(height: 5),
-                AuthorContent(author: list[index].author),
-              ],
+          return FoodInkWell(
+            onTap: () {
+              final data = {"id": list[index].id};
+              Get.toNamed(RouteName.foodDetail, arguments: jsonEncode(data));
+            },
+            child: Container(
+              margin: EdgeInsets.only(
+                left: index < 1 ? 30 : 8,
+                right: 8,
+              ),
+              width: 150,
+              decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(10),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.3),
+                      spreadRadius: 2,
+                      blurRadius: 1,
+                      offset: const Offset(0, 2),
+                    ),
+                  ]),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  ImageContent(imageURL: list[index].image),
+                  const SizedBox(height: 8),
+                  TitleContent(title: list[index].name),
+                  const SizedBox(height: 5),
+                  AuthorContent(author: list[index].author),
+                ],
+              ),
             ),
           );
         },

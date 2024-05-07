@@ -5,8 +5,8 @@ import 'package:food_recipe/features/foods/presentation/widgets/latest_carousel.
 import 'package:food_recipe/features/foods/presentation/widgets/search_content.dart';
 import 'package:food_recipe/features/foods/presentation/widgets/suggestion_carousel.dart';
 
-class FoodListing extends StatelessWidget {
-  const FoodListing({super.key});
+class FoodHome extends StatelessWidget {
+  const FoodHome({super.key});
 
   @override
   Widget build(BuildContext context) {

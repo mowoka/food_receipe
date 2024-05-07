@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Food Recipe App',
-      home: const FoodListing(),
+      home: const FoodHome(),
       getPages: AppPage.pages,
     );
   }

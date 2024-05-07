@@ -1,6 +1,6 @@
 import 'package:food_recipe/core/domain/entities/drink.dart';
 import 'package:food_recipe/core/domain/entities/food.dart';
-import 'package:food_recipe/features/foods/data/repositories/food_home_repository.dart';
+import 'package:food_recipe/features/foods/data/repositories/food_home_repository_impl.dart';
 import 'package:food_recipe/features/foods/domain/entities/food_home_entity.dart';
 import 'package:food_recipe/features/foods/domain/usecases/get_food_latest.dart';
 
@@ -20,7 +20,7 @@ class FoodHomeController extends GetxController {
 
   @override
   void onInit() {
-    // regis init fun
+    // regist init func with repo implement
     getFoodSuggestion = GetFoodSuggestion(repository: repo);
     getLatestFood = GetLatestFood(repository: repo);
 
