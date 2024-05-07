@@ -1,5 +1,5 @@
-import 'package:food_recipe/features/foods/data/repositories/food_detail_respository.dart';
-import 'package:food_recipe/features/foods/domain/entities/food_detail_entiry.dart';
+import 'package:food_recipe/features/foods/data/repositories/food_detail_respository_impl.dart';
+import 'package:food_recipe/features/foods/domain/entities/food_detail_entity.dart';
 import 'package:food_recipe/features/foods/domain/usecases/get_food_detail.dart';
 import 'package:get/get.dart';
 

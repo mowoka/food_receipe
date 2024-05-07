@@ -1,4 +1,5 @@
 import 'package:food_recipe/core/config/route_name.dart';
+import 'package:food_recipe/features/foods/presentation/routes/drink_detail.dart';
 import 'package:food_recipe/features/foods/presentation/routes/food_detail.dart';
 import 'package:food_recipe/features/foods/presentation/routes/food_home.dart';
 import 'package:get/route_manager.dart';
@@ -12,6 +13,10 @@ class AppPage {
     GetPage(
       name: RouteName.foodDetail,
       page: () => const FoodDetail(),
+    ),
+    GetPage(
+      name: RouteName.drinkDetail,
+      page: () => const DrinkDetail(),
     ),
   ];
 }
