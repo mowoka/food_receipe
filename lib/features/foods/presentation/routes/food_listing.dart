@@ -19,9 +19,9 @@ class FoodListing extends StatelessWidget {
           child: GetBuilder(
             init: FoodListingController(),
             builder: (controller) {
-              final foods = controller.foodListingEntity.value.foods;
-              final drinks = controller.foodListingEntity.value.drinks;
               final isLoading = controller.isLoading.value;
+              final foodsFiltered = controller.filteredFoods;
+              final drinkFiltered = controller.filteredDrinks;
 
               return Skeletonizer(
                 enabled: isLoading,
@@ -31,8 +31,8 @@ class FoodListing extends StatelessWidget {
                   children: [
                     const FoodListingFilter(),
                     FoodListingFoodCard(
-                      foods: foods,
-                      drinks: drinks,
+                      foods: foodsFiltered,
+                      drinks: drinkFiltered,
                     ),
                   ],
                 ),

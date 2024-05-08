@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_recipe/core/presentation/widgets/food_inkwell.dart';
+import 'package:food_recipe/features/foods/presentation/controllers/food_listing_controller.dart';
+import 'package:get/get.dart';
 
 class FoodListingFilter extends StatelessWidget {
   const FoodListingFilter({
@@ -8,6 +10,8 @@ class FoodListingFilter extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final flc = Get.put(FoodListingController());
+
     return Container(
       width: MediaQuery.of(context).size.width,
       height: 80,
@@ -33,6 +37,10 @@ class FoodListingFilter extends StatelessWidget {
                   hintText: "Search Recipe ...",
                   hintStyle: TextStyle(color: Colors.orange),
                 ),
+                controller: flc.searchKeyword.value,
+                onChanged: (value) {
+                  flc.onChangeSearchKeyword(value);
+                },
               ),
             ),
           ),
