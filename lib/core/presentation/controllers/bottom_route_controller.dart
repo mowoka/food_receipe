@@ -12,18 +12,18 @@ class BottomRouteController extends GetxController {
   void changePage(int index) {
     switch (index) {
       case 0:
-        Get.offNamed(RouteName.foodListing);
+        Get.offNamed(RouteName.foodHome);
         break;
       case 1:
         // favorite page
-        Get.offNamed(RouteName.foodListing);
+        Get.offNamed(RouteName.foodHome);
         break;
       case 2:
         // person page
-        Get.offNamed(RouteName.foodListing);
+        Get.offNamed(RouteName.foodHome);
         break;
       default:
-        Get.offNamed(RouteName.foodListing);
+        Get.offNamed(RouteName.foodHome);
         break;
     }
   }

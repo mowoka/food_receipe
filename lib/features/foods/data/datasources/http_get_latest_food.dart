@@ -13,5 +13,5 @@ Future<List<FoodModel>> httpGetLatestFood() async {
   });
 
   final foods = (res as List).map((e) => FoodModel.fromJson(e)).toList();
-  return foods.sublist(7);
+  return foods.sublist(7, 13);
 }
