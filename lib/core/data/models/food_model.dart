@@ -17,6 +17,17 @@ class FoodModel {
   final List<String> ingredients;
   final List<String> howToMake;
 
+  toJson() {
+    return {
+      "id": id,
+      "name": name,
+      "image": image,
+      "author": author,
+      "ingredients": ingredients.map((e) => e.toString()).toList(),
+      "how_to_make": howToMake.map((e) => e.toString()).toList(),
+    };
+  }
+
   factory FoodModel.fromJson(dynamic json) {
     return FoodModel(
       id: json['id'],

@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:food_recipe/core/config/page_route.dart';
-import 'package:food_recipe/features/foods/presentation/routes/food_listing.dart';
+import 'package:food_recipe/features/foods/presentation/routes/food_home.dart';
 import 'package:get/route_manager.dart';
+import 'package:get_storage/get_storage.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  // Init Library
+  await GetStorage.init();
+
   runApp(const MyApp());
 }
 
@@ -16,7 +22,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Food Recipe App',
-      home: const FoodListing(),
+      home: const FoodHome(),
       getPages: AppPage.pages,
     );
   }
