@@ -40,7 +40,25 @@ class FoodDetail extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          const FoodDetailLeftPanel(),
+                          GetBuilder(
+                            init: FoodDetailController(),
+                            builder: (fdc) {
+                              final isFavoriteFood = fdc.isFavoriteFood.value;
+                              return FoodDetailLeftPanel(
+                                isFavorite: isFavoriteFood,
+                                onTapBook: () => {},
+                                onTapEdiDocument: () => {},
+                                onTapFavorite: () {
+                                  final food = fdc.foodDetailEntity.value.data;
+                                  if (isFavoriteFood) {
+                                    fdc.removeFavFood(food: food);
+                                  } else {
+                                    fdc.addFavFood(food: food);
+                                  }
+                                },
+                              );
+                            },
+                          ),
                           FoodDetailRightPanel(
                             imageURL: food.image,
                           ),

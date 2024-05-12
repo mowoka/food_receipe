@@ -1,12 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:food_recipe/core/presentation/widgets/food_inkwell.dart';
-import 'package:food_recipe/features/foods/presentation/controllers/food_detail_controller.dart';
 import 'package:get/get.dart';
 
 class FoodDetailLeftPanel extends StatelessWidget {
   const FoodDetailLeftPanel({
     super.key,
+    required this.isFavorite,
+    required this.onTapBook,
+    required this.onTapEdiDocument,
+    required this.onTapFavorite,
   });
+
+  final bool isFavorite;
+  final Function() onTapBook;
+  final Function() onTapEdiDocument;
+  final Function() onTapFavorite;
 
   @override
   Widget build(BuildContext context) {
@@ -24,44 +32,31 @@ class FoodDetailLeftPanel extends StatelessWidget {
             showBoxShadow: false,
             icon: Icons.arrow_back,
           ),
-          GetBuilder(
-              init: FoodDetailController(),
-              builder: (fdc) {
-                final isFavoriteFood = fdc.isFavoriteFood.value;
-
-                return Container(
-                  padding: const EdgeInsets.symmetric(vertical: 10),
-                  child: Column(
-                    children: [
-                      FoodDetailButton(
-                        onTap: () {},
-                        showBoxShadow: true,
-                        icon: Icons.book_outlined,
-                      ),
-                      const SizedBox(height: 40),
-                      FoodDetailButton(
-                        onTap: () {},
-                        showBoxShadow: true,
-                        icon: Icons.edit_document,
-                      ),
-                      const SizedBox(height: 40),
-                      FoodDetailButton(
-                        onTap: () {
-                          final food = fdc.foodDetailEntity.value.data;
-                          if (isFavoriteFood) {
-                            fdc.removeFavFood(food: food);
-                          } else {
-                            fdc.addFavFood(food: food);
-                          }
-                        },
-                        showBoxShadow: true,
-                        icon: Icons.favorite_sharp,
-                        color: isFavoriteFood ? Colors.pink : Colors.black,
-                      ),
-                    ],
-                  ),
-                );
-              }),
+          Container(
+            padding: const EdgeInsets.symmetric(vertical: 10),
+            child: Column(
+              children: [
+                FoodDetailButton(
+                  onTap: onTapBook,
+                  showBoxShadow: true,
+                  icon: Icons.book_outlined,
+                ),
+                const SizedBox(height: 40),
+                FoodDetailButton(
+                  onTap: onTapEdiDocument,
+                  showBoxShadow: true,
+                  icon: Icons.edit_document,
+                ),
+                const SizedBox(height: 40),
+                FoodDetailButton(
+                  onTap: onTapFavorite,
+                  showBoxShadow: true,
+                  icon: Icons.favorite_sharp,
+                  color: isFavorite ? Colors.pink : Colors.black,
+                ),
+              ],
+            ),
+          ),
         ],
       ),
     );

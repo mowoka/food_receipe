@@ -40,7 +40,26 @@ class DrinkDetail extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          const FoodDetailLeftPanel(),
+                          GetBuilder(
+                            init: DrinkDetailController(),
+                            builder: (ddc) {
+                              final isDrinkFavorite = ddc.isFavoriteDrink.value;
+                              return FoodDetailLeftPanel(
+                                isFavorite: isDrinkFavorite,
+                                onTapBook: () => {},
+                                onTapEdiDocument: () => {},
+                                onTapFavorite: () {
+                                  final drink =
+                                      ddc.drinkDetailEntity.value.data;
+                                  if (isDrinkFavorite) {
+                                    ddc.removeFavDrink(drink: drink);
+                                  } else {
+                                    ddc.addFavDrink(drink: drink);
+                                  }
+                                },
+                              );
+                            },
+                          ),
                           FoodDetailRightPanel(
                             imageURL: drink.image,
                           ),
