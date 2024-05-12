@@ -1,7 +1,6 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:food_recipe/core/presentation/widgets/food_scaffold.dart';
 import 'package:food_recipe/features/foods/presentation/controllers/food_detail_controller.dart';
 import 'package:food_recipe/features/foods/presentation/widgets/food_detail_left_panel.dart';
 import 'package:food_recipe/features/foods/presentation/widgets/food_detail_right_panel.dart';
