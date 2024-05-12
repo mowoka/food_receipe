@@ -19,7 +19,7 @@ class FoodDetail extends StatelessWidget {
     final id = data["id"];
     fdc.getFoodDetailData(foodId: id);
 
-    return FoodScaffold(
+    return Scaffold(
       body: SafeArea(
         child: SingleChildScrollView(
           child: GetBuilder(

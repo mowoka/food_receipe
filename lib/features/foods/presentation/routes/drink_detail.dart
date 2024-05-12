@@ -19,7 +19,7 @@ class DrinkDetail extends StatelessWidget {
     final id = data["id"];
     ddc.getDrink(drinkId: id);
 
-    return FoodScaffold(
+    return Scaffold(
       body: SafeArea(
         child: SingleChildScrollView(
           child: GetBuilder(
