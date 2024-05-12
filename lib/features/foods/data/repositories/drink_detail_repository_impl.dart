@@ -1,3 +1,4 @@
+import 'package:food_recipe/core/config/storage_keys.dart';
 import 'package:food_recipe/core/domain/entities/drink.dart';
 import 'package:food_recipe/core/domain/entities/storage_drink.dart';
 import 'package:food_recipe/features/foods/data/datasources/http_get_drink_detail.dart';
@@ -8,7 +9,10 @@ class DrinkDetailRepositoryImpl implements DrinkDetailRepository {
   late final StorageDrink storageDrink;
 
   DrinkDetailRepositoryImpl({required GetStorage storage}) {
-    storageDrink = StorageDrink(spKey: 'storageFood', storage: storage);
+    storageDrink = StorageDrink(
+      spKey: StorageKeys.storageDrink,
+      storage: storage,
+    );
   }
 
   @override
