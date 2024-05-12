@@ -6,7 +6,7 @@ class BottomRouteController extends GetxController {
 
   void changeTabIndex(int index) {
     tabIndex.value = index;
-    changePage(index);
+    // changePage(index);
   }
 
   void changePage(int index) {
@@ -16,7 +16,7 @@ class BottomRouteController extends GetxController {
         break;
       case 1:
         // favorite page
-        Get.offNamed(RouteName.foodHome);
+        Get.offNamed(RouteName.favorite);
         break;
       case 2:
         // person page

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_recipe/core/config/bottom_nav_widget_options.dart';
 import 'package:food_recipe/core/presentation/controllers/bottom_route_controller.dart';
 import 'package:get/get.dart';
 
@@ -18,7 +19,7 @@ class FoodScaffold extends StatelessWidget {
 
     return Scaffold(
       appBar: appbar,
-      body: body,
+      body: Obx(() => BottomNavigationWidget.widgetOptions[brc.tabIndex.value]),
       bottomNavigationBar: Obx(
         () => SizedBox(
           height: 100,

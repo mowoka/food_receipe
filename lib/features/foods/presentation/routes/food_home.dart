@@ -10,24 +10,35 @@ class FoodHome extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FoodScaffold(
-      body: Container(
-        width: MediaQuery.of(context).size.width,
-        height: MediaQuery.of(context).size.height,
-        decoration: const BoxDecoration(
-          color: Colors.white38,
-        ),
-        child: const SingleChildScrollView(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              SearchContent(),
-              SuggestionCarousel(),
-              LatesCarousel(),
-              DrinkCarousel()
-            ],
-          ),
+    return const FoodScaffold(
+      body: FoodHomeContent(),
+    );
+  }
+}
+
+class FoodHomeContent extends StatelessWidget {
+  const FoodHomeContent({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: MediaQuery.of(context).size.width,
+      height: MediaQuery.of(context).size.height,
+      decoration: const BoxDecoration(
+        color: Colors.white38,
+      ),
+      child: const SingleChildScrollView(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            SearchContent(),
+            SuggestionCarousel(),
+            LatesCarousel(),
+            DrinkCarousel()
+          ],
         ),
       ),
     );

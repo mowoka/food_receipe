@@ -1,4 +1,5 @@
 import 'package:food_recipe/core/config/route_name.dart';
+import 'package:food_recipe/features/favorite/presentation/routes/favorite.dart';
 import 'package:food_recipe/features/foods/presentation/routes/drink_detail.dart';
 import 'package:food_recipe/features/foods/presentation/routes/food_detail.dart';
 import 'package:food_recipe/features/foods/presentation/routes/food_home.dart';
@@ -22,6 +23,10 @@ class AppPage {
     GetPage(
       name: RouteName.drinkDetail,
       page: () => const DrinkDetail(),
+    ),
+    GetPage(
+      name: RouteName.favorite,
+      page: () => const Favorite(),
     ),
   ];
 }

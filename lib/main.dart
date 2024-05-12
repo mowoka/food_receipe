@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Food Recipe App',
+      title: 'Hello Recipe',
       home: const FoodHome(),
       getPages: AppPage.pages,
     );
