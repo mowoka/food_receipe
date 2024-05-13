@@ -60,10 +60,13 @@ class FavoriteContent extends StatelessWidget {
                       FavoriteItem(
                         name: food.name,
                         author: food.author,
-                        onTap: () {
+                        onTap: () async {
                           final data = {"id": food.id};
-                          Get.toNamed(RouteName.foodDetail,
-                              arguments: jsonEncode(data));
+                          await Get.toNamed(
+                            RouteName.foodDetail,
+                            arguments: jsonEncode(data),
+                          );
+                          controller.onLoad();
                         },
                       ),
                     const Padding(
@@ -80,10 +83,13 @@ class FavoriteContent extends StatelessWidget {
                       FavoriteItem(
                         name: drink.name,
                         author: drink.author,
-                        onTap: () {
+                        onTap: () async {
                           final data = {"id": drink.id};
-                          Get.toNamed(RouteName.drinkDetail,
-                              arguments: jsonEncode(data));
+                          await Get.toNamed(
+                            RouteName.drinkDetail,
+                            arguments: jsonEncode(data),
+                          );
+                          controller.onLoad();
                         },
                       ),
                   ],
