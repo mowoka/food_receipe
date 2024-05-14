@@ -1,7 +1,35 @@
 import 'package:flutter/material.dart';
+import 'package:food_recipe/core/presentation/widgets/food_expansion_tile.dart';
 
 class ListItem extends StatelessWidget {
   const ListItem({
+    super.key,
+    required this.name,
+    required this.description,
+    required this.onTap,
+  });
+
+  final String name;
+  final String description;
+  final Function() onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    return FoodExpansionTile(
+      title: ExpansionHead(name: name, onTap: onTap),
+      children: [
+        Container(
+          alignment: Alignment.centerLeft,
+          padding: const EdgeInsets.symmetric(vertical: 5),
+          child: Text(description),
+        )
+      ],
+    );
+  }
+}
+
+class ExpansionHead extends StatelessWidget {
+  const ExpansionHead({
     super.key,
     required this.name,
     required this.onTap,
@@ -9,7 +37,6 @@ class ListItem extends StatelessWidget {
 
   final String name;
   final Function() onTap;
-
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -18,7 +45,7 @@ class ListItem extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
-            padding: const EdgeInsets.only(bottom: 10),
+            padding: const EdgeInsets.only(bottom: 6),
             child: Text(
               name,
               style: const TextStyle(

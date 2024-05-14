@@ -22,22 +22,27 @@ class RecipediaPage extends StatelessWidget {
                 if (isLoading) {
                   return const Padding(
                     padding: EdgeInsets.all(20),
-                    child: CircularProgressIndicator(),
+                    child: CircularProgressIndicator(
+                      color: Colors.orangeAccent,
+                    ),
                   );
                 }
 
-                return Container(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
-                  child: SingleChildScrollView(
-                    child: Column(
-                      children: [
-                        for (final item in data)
-                          ListItem(
-                            name: item.name,
-                            onTap: () {},
-                          ),
-                      ],
+                return Expanded(
+                  child: Container(
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 20, vertical: 20),
+                    child: SingleChildScrollView(
+                      child: Column(
+                        children: [
+                          for (final item in data)
+                            ListItem(
+                              name: item.name,
+                              description: item.description,
+                              onTap: () {},
+                            ),
+                        ],
+                      ),
                     ),
                   ),
                 );
