@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:food_recipe/core/config/route_name.dart';
 import 'package:food_recipe/features/profile/presentation/widgets/profile_header.dart';
 import 'package:food_recipe/features/profile/presentation/widgets/profile_menu.dart';
+import 'package:get/route_manager.dart';
 
 class Profile extends StatelessWidget {
   const Profile({super.key});
@@ -30,9 +32,11 @@ class ProfileContent extends StatelessWidget {
           child: Column(
             children: [
               ProfileMenu(
-                title: 'Recipe Wikipedia',
+                title: 'Recipedia',
                 asset: 'assets/icons/recipe-book.png',
-                onTap: () => {},
+                onTap: () => {
+                  Get.toNamed(RouteName.recipedia),
+                },
               ),
               ProfileMenu(
                 title: 'Ingredients Wikipedia',

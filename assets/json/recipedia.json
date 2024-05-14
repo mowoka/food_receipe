@@ -1,0 +1,69 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "name": "Sdt",
+      "description": "Takaran berdasarkan satu sendok teh"
+    },
+    {
+      "id": 1,
+      "name": "Sdm",
+      "description": "Takaran berdasarkan satu sendok makan"
+    },
+    {
+      "id": 2,
+      "name": "gr",
+      "description": "Takaran berdasarkan berat dalam gram"
+    },
+    {
+      "id": 3,
+      "name": "kg",
+      "description": "Takaran berdasarkan berat dalam kilo gram"
+    },
+    {
+      "id": 4,
+      "name": "btg",
+      "description": "Bahan baku yang panjang dan dihitung dalam batangan"
+    },
+    {
+      "id": 5,
+      "name": "bks",
+      "description": "Bahan baku yang perhitungannya berdasarkan bungkus dari kemasan"
+    },
+    {
+      "id": 6,
+      "name": "bh",
+      "description": "Singkatan dari buah"
+    },
+    {
+      "id": 7,
+      "name": "cc",
+      "description": "Satuan takaran yang sama denagn 1 ml"
+    },
+    {
+      "id": 8,
+      "name": "lbr",
+      "description": "Bahan baku yang di hitung bersarakan lembaran"
+    },
+    {
+      "id": 9,
+      "name": "ltr",
+      "description": "Satuan takarana air yang banyak dalam liter"
+    },
+    {
+      "id": 10,
+      "name": "ml",
+      "description": "Satuan takarana air yang sedikit dalam mililiter"
+    },
+    {
+      "id": 11,
+      "name": "Siung",
+      "description": "Satuan dalam bawang untuk representasikan 1 bawang"
+    },
+    {
+      "id": 12,
+      "name": "Ruas",
+      "description": "Bagian dalam jahe dari rimpang yang dipisahkan dengan ruas jahe lainnya"
+    }
+  ]
+}

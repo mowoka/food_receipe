@@ -5,6 +5,7 @@ import 'package:food_recipe/features/foods/presentation/routes/food_detail.dart'
 import 'package:food_recipe/features/foods/presentation/routes/food_home.dart';
 import 'package:food_recipe/features/foods/presentation/routes/food_listing.dart';
 import 'package:food_recipe/features/profile/presentation/routes/profile.dart';
+import 'package:food_recipe/features/profile/presentation/routes/recipedia.dart';
 import 'package:get/route_manager.dart';
 
 class AppPage {
@@ -32,6 +33,10 @@ class AppPage {
     GetPage(
       name: RouteName.profile,
       page: () => const Profile(),
+    ),
+    GetPage(
+      name: RouteName.recipedia,
+      page: () => const RecipediaPage(),
     ),
   ];
 }

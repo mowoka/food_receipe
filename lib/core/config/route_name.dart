@@ -5,4 +5,5 @@ abstract class RouteName {
   static const drinkDetail = '/drink-detail';
   static const favorite = '/favorite';
   static const profile = '/profile';
+  static const recipedia = '/recipedia';
 }

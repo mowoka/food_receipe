@@ -66,10 +66,8 @@ flutter:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
   assets:
-    - assets/json/foods.json
-    - assets/json/drinks.json
-    - assets/icons/recipe-book.png
-    - assets/icons/vegetable.png
+    - assets/json/
+    - assets/icons/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
