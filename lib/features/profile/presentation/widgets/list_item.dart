@@ -7,22 +7,25 @@ class ListItem extends StatelessWidget {
     required this.name,
     required this.description,
     required this.onTap,
+    this.expandedChild,
   });
 
   final String name;
   final String description;
   final Function() onTap;
+  final Widget? expandedChild;
 
   @override
   Widget build(BuildContext context) {
     return FoodExpansionTile(
       title: ExpansionHead(name: name, onTap: onTap),
       children: [
-        Container(
-          alignment: Alignment.centerLeft,
-          padding: const EdgeInsets.symmetric(vertical: 5),
-          child: Text(description),
-        )
+        expandedChild ??
+            Container(
+              alignment: Alignment.centerLeft,
+              padding: const EdgeInsets.symmetric(vertical: 5),
+              child: Text(description),
+            )
       ],
     );
   }

@@ -41,7 +41,11 @@ class ProfileContent extends StatelessWidget {
               ProfileMenu(
                 title: 'Ingredients Wikipedia',
                 asset: 'assets/icons/vegetable.png',
-                onTap: () => {},
+                onTap: () => {
+                  Get.toNamed(
+                    RouteName.ingredientWikipedia,
+                  )
+                },
               ),
             ],
           ),

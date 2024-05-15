@@ -4,6 +4,7 @@ import 'package:food_recipe/features/foods/presentation/routes/drink_detail.dart
 import 'package:food_recipe/features/foods/presentation/routes/food_detail.dart';
 import 'package:food_recipe/features/foods/presentation/routes/food_home.dart';
 import 'package:food_recipe/features/foods/presentation/routes/food_listing.dart';
+import 'package:food_recipe/features/profile/presentation/routes/ingredient_wikipedia.dart';
 import 'package:food_recipe/features/profile/presentation/routes/profile.dart';
 import 'package:food_recipe/features/profile/presentation/routes/recipedia.dart';
 import 'package:get/route_manager.dart';
@@ -37,6 +38,10 @@ class AppPage {
     GetPage(
       name: RouteName.recipedia,
       page: () => const RecipediaPage(),
+    ),
+    GetPage(
+      name: RouteName.ingredientWikipedia,
+      page: () => const IngredientWikipedia(),
     ),
   ];
 }
