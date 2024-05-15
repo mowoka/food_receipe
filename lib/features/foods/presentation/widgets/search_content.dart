@@ -27,13 +27,14 @@ class SearchContent extends StatelessWidget {
               'Hello, Recipe',
               style: TextStyle(
                 color: Colors.white,
-                fontSize: 40,
+                fontSize: 50,
                 fontWeight: FontWeight.w700,
+                fontFamily: 'Playball',
               ),
             ),
           ),
           Transform.translate(
-            offset: const Offset(0.0, 50),
+            offset: const Offset(0.0, 45),
             child: Container(
               margin: const EdgeInsets.only(left: 30, right: 30),
               padding: const EdgeInsets.symmetric(

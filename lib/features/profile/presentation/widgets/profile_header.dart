@@ -20,12 +20,13 @@ class ProfileHeader extends StatelessWidget {
             Text(
               "Hello, Mowoka",
               style: TextStyle(
-                fontSize: 28,
+                fontSize: 36,
                 fontWeight: FontWeight.w700,
                 color: Colors.white,
+                fontFamily: 'Playball',
               ),
             ),
-            SizedBox(height: 20),
+            SizedBox(height: 15),
             Text(
               "Let's make food memories, it's a cooking kind of day!",
               style: TextStyle(

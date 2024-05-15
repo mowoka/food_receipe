@@ -30,8 +30,9 @@ class AppBarHeader extends StatelessWidget {
               textAlign: TextAlign.center,
               style: const TextStyle(
                 color: Colors.white,
-                fontSize: 24,
+                fontSize: 28,
                 fontWeight: FontWeight.w600,
+                fontFamily: 'Playball',
               ),
             ),
           ),
