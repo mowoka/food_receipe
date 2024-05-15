@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:food_recipe/core/config/route_name.dart';
 import 'package:food_recipe/core/presentation/widgets/food_inkwell.dart';
+import 'package:get/route_manager.dart';
 
 class Welcome extends StatelessWidget {
   const Welcome({super.key});
@@ -86,7 +88,9 @@ class Welcome extends StatelessWidget {
                     ),
                   ),
                 ),
-                onTap: () {},
+                onTap: () {
+                  Get.offNamed(RouteName.register);
+                },
               ),
             ],
           ),

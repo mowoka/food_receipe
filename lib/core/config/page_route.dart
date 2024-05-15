@@ -4,6 +4,8 @@ import 'package:food_recipe/features/foods/presentation/routes/drink_detail.dart
 import 'package:food_recipe/features/foods/presentation/routes/food_detail.dart';
 import 'package:food_recipe/features/foods/presentation/routes/food_home.dart';
 import 'package:food_recipe/features/foods/presentation/routes/food_listing.dart';
+import 'package:food_recipe/features/onboard/presentation/routes/register.dart';
+import 'package:food_recipe/features/onboard/presentation/routes/welcome.dart';
 import 'package:food_recipe/features/profile/presentation/routes/ingredient_wikipedia.dart';
 import 'package:food_recipe/features/profile/presentation/routes/profile.dart';
 import 'package:food_recipe/features/profile/presentation/routes/recipedia.dart';
@@ -42,6 +44,14 @@ class AppPage {
     GetPage(
       name: RouteName.ingredientWikipedia,
       page: () => const IngredientWikipedia(),
+    ),
+    GetPage(
+      name: RouteName.welcome,
+      page: () => const Welcome(),
+    ),
+    GetPage(
+      name: RouteName.register,
+      page: () => const Register(),
     ),
   ];
 }
