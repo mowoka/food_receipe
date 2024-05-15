@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_recipe/core/config/page_route.dart';
 import 'package:food_recipe/features/foods/presentation/routes/food_home.dart';
+import 'package:food_recipe/features/onboard/presentation/routes/welcome.dart';
 import 'package:get/route_manager.dart';
 import 'package:get_storage/get_storage.dart';
 
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Hello Recipe',
-      home: const FoodHome(),
+      home: const Welcome(),
       getPages: AppPage.pages,
     );
   }
