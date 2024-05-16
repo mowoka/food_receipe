@@ -28,15 +28,15 @@ Selamat memasak!
 Beberapa kata kunci yang dapat Anda gunakan dalam kata pembuka Anda:
 
 Resep makanan : 
-    - Memasak
-    - Lezat
-    - Mudah
-    - Gratis
-    - Dunia
-    - Tips
-    - Tricks
-    - Koki
-    - Media sosial
+- Memasak
+- Lezat
+- Mudah
+- Gratis
+- Dunia
+- Tips
+- Tricks
+- Koki
+- Media sosial
 
 Anda juga dapat menambahkan sentuhan pribadi pada kata pembuka Anda dengan menceritakan tentang pengalaman memasak Anda sendiri atau resep favorit Anda.
 
