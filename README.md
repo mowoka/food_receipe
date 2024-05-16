@@ -54,17 +54,7 @@ dependency this app using is :
 
 ## Preview
 
-<ul style="list-style: none; display: flex; flex-wrap: wrap;">
-  <li style="margin: 5px;">
-    ![Preview_1](https://github.com/mowoka/food_receipe/assets/18671880/4769ee3f-35f9-4f30-aafa-2c20c29e2cf1)
-    ![Preview_2](https://github.com/mowoka/food_receipe/assets/18671880/e31558b4-7fc7-4d7a-bd63-394a16754b0e)
-    ![Preview_3](https://github.com/mowoka/food_receipe/assets/18671880/14b41d4d-277f-4834-81b9-24b5103baa06)
-  </li>
-  <li style="margin: 5px;">
-    ![Preview_4](https://github.com/mowoka/food_receipe/assets/18671880/96e560e8-010d-40b5-a246-4f8b148b4b3d)
-    ![Preview_5](https://github.com/mowoka/food_receipe/assets/18671880/3ff3a536-8394-4ac8-a769-6fae4a2cd15f)
-  </li>
-</ul>
+![Simulator Screenshot - iPhone 14 Pro Max - 2024-05-16 at 08 45 31](https://github.com/mowoka/food_receipe/assets/18671880/f521de82-cb86-4adc-8a99-98bd2eb75f86)
 
   
  
