@@ -58,3 +58,13 @@ dependency this app using is :
 ![Simulator Screenshot - iPhone 14 Pro Max - 2024-05-16 at 08 45 50](https://github.com/mowoka/food_receipe/assets/18671880/141e8801-0d67-41bd-865a-e370bfe81e71) ![Simulator Screenshot - iPhone 14 Pro Max - 2024-05-16 at 08 46 01](https://github.com/mowoka/food_receipe/assets/18671880/94c41d3c-bfc9-4fea-8dda-21e7c0cb966e)
 
 
+
+## Setup
+
+for setup project:
+- Flutter run start
+
+for unit testing
+- flutter test --coverage
+- genhtml coverage/lcov.info -o coverge/html
+- open coverage/html/index.html
