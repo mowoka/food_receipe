@@ -44,4 +44,13 @@ Semoga berhasil!
 
 ## Getting Started
 
+Hello Recipe build using Flutter freamwork and dart programming languages.
+
+dependency this app using is :
+- get (GetX State Management)
+- skeletonizer
+- get_storage
+- animated_text_kit
+
+
 
