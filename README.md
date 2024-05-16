@@ -54,8 +54,7 @@ dependency this app using is :
 
 ## Preview
 
-![Simulator Screenshot - iPhone 14 Pro Max - 2024-05-16 at 08 45 31](https://github.com/mowoka/food_receipe/assets/18671880/f521de82-cb86-4adc-8a99-98bd2eb75f86)
+![Simulator Screenshot - iPhone 14 Pro Max - 2024-05-16 at 08 45 31](https://github.com/mowoka/food_receipe/assets/18671880/f521de82-cb86-4adc-8a99-98bd2eb75f86) ![Simulator Screenshot - iPhone 14 Pro Max - 2024-05-16 at 08 45 38](https://github.com/mowoka/food_receipe/assets/18671880/df1e2f13-275c-4d6a-9489-af040982a79a) ![Simulator Screenshot - iPhone 14 Pro Max - 2024-05-16 at 08 45 46](https://github.com/mowoka/food_receipe/assets/18671880/8ace4e7f-ad14-47f1-90ed-c0fa89f702b0)
+![Simulator Screenshot - iPhone 14 Pro Max - 2024-05-16 at 08 45 50](https://github.com/mowoka/food_receipe/assets/18671880/141e8801-0d67-41bd-865a-e370bfe81e71) ![Simulator Screenshot - iPhone 14 Pro Max - 2024-05-16 at 08 46 01](https://github.com/mowoka/food_receipe/assets/18671880/94c41d3c-bfc9-4fea-8dda-21e7c0cb966e)
 
-  
- 
 
