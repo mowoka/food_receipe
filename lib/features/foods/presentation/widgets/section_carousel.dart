@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:food_recipe/core/config/route_name.dart';
+import 'package:food_recipe/core/config/testing_config.dart';
 import 'package:food_recipe/core/domain/entities/drink.dart';
 import 'package:food_recipe/core/domain/entities/food.dart';
 import 'package:food_recipe/core/presentation/widgets/food_inkwell.dart';
@@ -262,6 +263,7 @@ class ImageContent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final testConfig = TestingConfig();
     return SizedBox(
       height: 100,
       child: ClipRRect(
@@ -269,10 +271,15 @@ class ImageContent extends StatelessWidget {
           topLeft: Radius.circular(10),
           topRight: Radius.circular(10),
         ),
-        child: Image.network(
-          imageURL,
-          fit: BoxFit.cover,
-        ),
+        child: testConfig.getTesting()
+            ? Image.asset(
+                'assets/images/placeholder-silde.png',
+                fit: BoxFit.cover,
+              )
+            : Image.network(
+                imageURL,
+                fit: BoxFit.cover,
+              ),
       ),
     );
   }

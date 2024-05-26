@@ -9,7 +9,6 @@ void main() async {
 
   // Init Library
   await GetStorage.init();
-
   runApp(const MyApp());
 }
 

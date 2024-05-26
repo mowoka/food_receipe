@@ -51,6 +51,9 @@ dependency this app using is :
 - skeletonizer
 - get_storage
 - animated_text_kit
+- mockito
+- build-runner
+- flutter svg
 
 ## Preview
 
@@ -65,6 +68,10 @@ for setup project:
 - Flutter run start
 
 for unit testing
+
+go to file config/testing_config.dart
+default value become true
+
 - flutter test --coverage
 - genhtml coverage/lcov.info -o coverge/html
 - open coverage/html/index.html

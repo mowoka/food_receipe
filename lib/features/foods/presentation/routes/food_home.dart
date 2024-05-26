@@ -24,8 +24,7 @@ class FoodHomeContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: MediaQuery.of(context).size.width,
-      height: MediaQuery.of(context).size.height,
+      width: double.infinity,
       decoration: const BoxDecoration(
         color: Colors.white38,
       ),
