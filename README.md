@@ -73,5 +73,5 @@ go to file config/testing_config.dart
 default value become true
 
 - flutter test --coverage
-- genhtml coverage/lcov.info -o coverge/html
+- genhtml coverage/lcov.info -o coverage/html
 - open coverage/html/index.html

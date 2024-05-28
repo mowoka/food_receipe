@@ -1,6 +1,6 @@
 class TestingConfig {
   final bool testing;
-  TestingConfig({this.testing = false});
+  TestingConfig({this.testing = true});
 
   bool getTesting() {
     return testing;

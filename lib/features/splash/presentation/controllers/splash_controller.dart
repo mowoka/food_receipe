@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:food_recipe/core/config/route_name.dart';
+import 'package:food_recipe/core/domain/entities/user.dart';
 import 'package:food_recipe/features/splash/data/repository/splash_repository_impl.dart';
 import 'package:food_recipe/features/splash/domain/usecases/storage_get_user.dart';
 import 'package:get/get.dart';
@@ -18,14 +19,13 @@ class SplashController extends GetxController {
   void onInit() {
     // regist init func with repo implement
     storageGetUser = StorageGetUser(repository: repo);
-
-    onLoad();
+    final user = storageGetUser.execute();
+    onLoad(user);
     super.onInit();
   }
 
-  void onLoad() {
+  void onLoad(User user) {
     Timer(const Duration(seconds: 2), () {
-      final user = storageGetUser.execute();
       if (user.name.isNotEmpty) {
         Get.offNamed(RouteName.foodHome);
       } else {

@@ -12,14 +12,14 @@ GetMaterialApp createFoodListingScreen() {
   );
 }
 
-// class FoodHomeControllerMock extends GetxController
-//     with Mock
-//     implements FoodHomeController {}
-
 void main() {
   testWidgets('Food Home screen testing', (WidgetTester tester) async {
     await tester.pumpWidget(createFoodListingScreen());
     await tester.pumpAndSettle();
     expect(find.text('Hello, Recipe'), findsAtLeastNWidgets(1));
+    expect(find.text('Indomie Kuah'), findsAtLeastNWidgets(1));
+    expect(find.text('Takoyaki'), findsAtLeastNWidgets(1));
+    expect(find.text('Teh Manis'), findsAtLeastNWidgets(1));
+    expect(find.text('More'), findsAtLeastNWidgets(1));
   });
 }
