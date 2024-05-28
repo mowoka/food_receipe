@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:food_recipe/core/config/route_name.dart';
+import 'package:food_recipe/core/config/testing_config.dart';
 import 'package:food_recipe/core/domain/entities/drink.dart';
 import 'package:food_recipe/core/domain/entities/food.dart';
 import 'package:food_recipe/core/presentation/widgets/food_inkwell.dart';
@@ -44,6 +45,7 @@ class FoodCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final testConfig = TestingConfig();
     return FoodInkWell(
       onTap: () {
         final data = {"id": food.id};
@@ -71,10 +73,15 @@ class FoodCard extends StatelessWidget {
                     topLeft: Radius.circular(8),
                     bottomLeft: Radius.circular(8),
                   ),
-                  child: Image.network(
-                    food.image,
-                    fit: BoxFit.cover,
-                  ),
+                  child: testConfig.getTesting()
+                      ? Image.asset(
+                          'assets/images/placeholder-silde.png',
+                          fit: BoxFit.cover,
+                        )
+                      : Image.network(
+                          food.image,
+                          fit: BoxFit.cover,
+                        ),
                 ),
               ),
             Expanded(
@@ -122,6 +129,7 @@ class DrinkCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final testConfig = TestingConfig();
     return FoodInkWell(
       onTap: () {
         final data = {"id": drink.id};
@@ -146,10 +154,15 @@ class DrinkCard extends StatelessWidget {
                   topLeft: Radius.circular(8),
                   bottomLeft: Radius.circular(8),
                 ),
-                child: Image.network(
-                  drink.image,
-                  fit: BoxFit.cover,
-                ),
+                child: testConfig.getTesting()
+                    ? Image.asset(
+                        'assets/images/placeholder-silde.png',
+                        fit: BoxFit.cover,
+                      )
+                    : Image.network(
+                        drink.image,
+                        fit: BoxFit.cover,
+                      ),
               ),
             ),
             Expanded(

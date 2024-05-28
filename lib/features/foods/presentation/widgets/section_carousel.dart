@@ -18,6 +18,7 @@ class SectionCarousel extends StatelessWidget {
     this.isFood = true,
     this.foodList,
     this.drinkList,
+    this.globalKey,
   });
 
   final bool isLoading;
@@ -25,6 +26,7 @@ class SectionCarousel extends StatelessWidget {
   final Function() onTapButtonMore;
   final List<Food>? foodList;
   final List<Drink>? drinkList;
+  final Key? globalKey;
   final bool isFood;
 
   @override
@@ -57,6 +59,7 @@ class SectionCarousel extends StatelessWidget {
                     ),
                   ),
                   FoodInkWell(
+                    globalKey: globalKey,
                     onTap: onTapButtonMore,
                     child: Container(
                       padding: const EdgeInsets.symmetric(
