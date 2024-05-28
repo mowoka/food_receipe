@@ -70,7 +70,6 @@ void main() {
     await tester.pumpAndSettle();
     expect(mockStorageUser.get().name, "Mokaz");
     expect(mockStorageGetUser.execute().name, "Mokaz");
-    // expect(find.text('Welcome'), findsAtLeastNWidgets(1));
     expect(find.text('Hello, Recipe'), findsAtLeastNWidgets(1));
 
     // remove storage data after testing
