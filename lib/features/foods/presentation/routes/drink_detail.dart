@@ -33,7 +33,7 @@ class DrinkDetail extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     SizedBox(
-                      height: MediaQuery.of(context).size.height * 0.7,
+                      height: 650,
                       width: MediaQuery.of(context).size.width,
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -68,7 +68,7 @@ class DrinkDetail extends StatelessWidget {
                     Container(
                       padding: const EdgeInsets.symmetric(
                           vertical: 30, horizontal: 30),
-                      width: MediaQuery.of(context).size.width,
+                      width: double.infinity,
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.start,

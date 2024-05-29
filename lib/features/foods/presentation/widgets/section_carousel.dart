@@ -109,6 +109,7 @@ class DrinkContent extends StatelessWidget {
         scrollDirection: Axis.horizontal,
         itemBuilder: (ctx, index) {
           return FoodInkWell(
+            globalKey: Key('drink_item_${list[index].id}'),
             onTap: () {
               final data = {"id": list[index].id};
               Get.toNamed(RouteName.drinkDetail, arguments: jsonEncode(data));

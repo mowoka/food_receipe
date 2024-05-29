@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_recipe/core/config/testing_config.dart';
 
 class FoodDetailRightPanel extends StatelessWidget {
   const FoodDetailRightPanel({
@@ -10,9 +11,9 @@ class FoodDetailRightPanel extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final testConfig = TestingConfig();
     return Expanded(
       child: Container(
-        width: double.infinity,
         height: double.infinity,
         decoration: const BoxDecoration(
             borderRadius: BorderRadius.only(
@@ -24,11 +25,16 @@ class FoodDetailRightPanel extends StatelessWidget {
             topLeft: Radius.circular(100),
             bottomLeft: Radius.circular(100),
           ),
-          child: Image.network(
-            imageURL,
-            fit: BoxFit.cover,
-            alignment: Alignment.center,
-          ),
+          child: testConfig.getTesting()
+              ? Image.asset(
+                  'assets/images/placeholder-silde.png',
+                  fit: BoxFit.cover,
+                )
+              : Image.network(
+                  imageURL,
+                  fit: BoxFit.cover,
+                  alignment: Alignment.center,
+                ),
         ),
       ),
     );

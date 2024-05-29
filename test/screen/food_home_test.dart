@@ -30,5 +30,41 @@ void main() {
     await tester.pump(const Duration(seconds: 2));
     await tester.pumpAndSettle();
     expect(find.byIcon(Icons.menu), findsOneWidget);
+
+    Get.back();
+    await tester.pump(const Duration(seconds: 2));
+    await tester.pumpAndSettle();
+
+    // test btn more latest
+    final btnLatestMore = find.byKey(const Key('btn_more_latest'));
+    await tester.ensureVisible(btnLatestMore);
+    await tester.tap(btnLatestMore);
+    await tester.pump(const Duration(seconds: 2));
+    await tester.pumpAndSettle();
+    expect(find.byIcon(Icons.menu), findsOneWidget);
+
+    Get.back();
+    await tester.pump(const Duration(seconds: 2));
+    await tester.pumpAndSettle();
+
+    // test btn more suggestion
+    final btnSuggestionMore = find.byKey(const Key('btn_more_suggestion'));
+    await tester.ensureVisible(btnSuggestionMore);
+    await tester.tap(btnSuggestionMore);
+    await tester.pump(const Duration(seconds: 2));
+    await tester.pumpAndSettle();
+    expect(find.byIcon(Icons.menu), findsOneWidget);
+
+    Get.back();
+    await tester.pump(const Duration(seconds: 2));
+    await tester.pumpAndSettle();
+
+    // testing carousel item btn
+    final btnDrinkCarouselItem = find.byKey(const Key('drink_item_1'));
+    await tester.ensureVisible(btnDrinkCarouselItem);
+    await tester.tap(btnDrinkCarouselItem);
+    await tester.pump(const Duration(seconds: 2));
+    await tester.pumpAndSettle();
+    expect(find.text('Teh Manis'), findsOneWidget);
   });
 }
