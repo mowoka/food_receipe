@@ -15,4 +15,9 @@ class ProfileRepositoryImpl implements ProfileRepository {
   User getUser() {
     return storageUser.get();
   }
+
+  @override
+  void deleteUser() {
+    storageUser.clear();
+  }
 }
