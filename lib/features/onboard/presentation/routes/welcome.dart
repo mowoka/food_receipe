@@ -39,7 +39,7 @@ class Welcome extends StatelessWidget {
                       width: MediaQuery.of(context).size.width * 0.5,
                       padding: const EdgeInsets.symmetric(
                           horizontal: 10, vertical: 30),
-                      height: 250,
+                      height: 300,
                       color: Colors.orangeAccent,
                       child: const Text(
                         "Cooking is like love - it's all about the ingredients and the passion you put into it.",
@@ -57,7 +57,7 @@ class Welcome extends StatelessWidget {
                       width: MediaQuery.of(context).size.width * 0.5,
                       padding: const EdgeInsets.symmetric(
                           horizontal: 10, vertical: 30),
-                      height: 280,
+                      height: 300,
                       color: Colors.red.shade400,
                       child: const Text(
                         "With a little bit of know-how and a whole lot of heart, anyone can create a culinary masterpiece.",

@@ -248,6 +248,7 @@ class TitleContent extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 6),
       child: Text(
         title,
+        overflow: TextOverflow.ellipsis,
         style: const TextStyle(
           fontSize: 14,
           fontWeight: FontWeight.w700,
