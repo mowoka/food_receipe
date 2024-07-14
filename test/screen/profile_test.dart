@@ -13,7 +13,7 @@ GetMaterialApp createProfileScreen() {
 }
 
 void main() {
-  testWidgets('Profile menu screen', (WidgetTester tester) async {
+  testWidgets('testing profile screen', (WidgetTester tester) async {
     await tester.pumpWidget(createProfileScreen());
     await tester.pumpAndSettle();
     expect(find.text("Let's make food memories, it's a cooking kind of day!"),

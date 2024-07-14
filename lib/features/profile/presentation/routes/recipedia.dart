@@ -39,7 +39,6 @@ class RecipediaPage extends StatelessWidget {
                             ListItem(
                               name: item.name,
                               description: item.description,
-                              onTap: () {},
                             ),
                         ],
                       ),

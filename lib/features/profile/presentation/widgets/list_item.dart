@@ -6,19 +6,19 @@ class ListItem extends StatelessWidget {
     super.key,
     required this.name,
     required this.description,
-    required this.onTap,
     this.expandedChild,
   });
 
   final String name;
   final String description;
-  final Function() onTap;
   final Widget? expandedChild;
 
   @override
   Widget build(BuildContext context) {
     return FoodExpansionTile(
-      title: ExpansionHead(name: name, onTap: onTap),
+      title: ExpansionHead(
+        name: name,
+      ),
       children: [
         expandedChild ??
             Container(
@@ -32,14 +32,9 @@ class ListItem extends StatelessWidget {
 }
 
 class ExpansionHead extends StatelessWidget {
-  const ExpansionHead({
-    super.key,
-    required this.name,
-    required this.onTap,
-  });
+  const ExpansionHead({super.key, required this.name});
 
   final String name;
-  final Function() onTap;
   @override
   Widget build(BuildContext context) {
     return Container(

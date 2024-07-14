@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_recipe/core/config/testing_config.dart';
 import 'package:food_recipe/core/presentation/widgets/app_bar_header.dart';
 import 'package:food_recipe/features/profile/domain/entities/ingredient_wikipedia_entities.dart';
 import 'package:food_recipe/features/profile/presentation/controllers/ingredient_wikipedia_controller.dart';
@@ -56,7 +57,6 @@ class IngredientWikipediaContent extends StatelessWidget {
                         ListItem(
                           name: ingredient.name,
                           description: ingredient.description,
-                          onTap: () {},
                           expandedChild:
                               IngredientListItem(ingredient: ingredient),
                         )
@@ -82,6 +82,7 @@ class IngredientListItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final testConfig = TestingConfig();
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 3),
       child: Row(
@@ -90,7 +91,12 @@ class IngredientListItem extends StatelessWidget {
           SizedBox(
             width: 150,
             height: 100,
-            child: Image.network(ingredient.image),
+            child: testConfig.getTesting()
+                ? Image.asset(
+                    'assets/images/placeholder-silde.png',
+                    fit: BoxFit.cover,
+                  )
+                : Image.network(ingredient.image),
           ),
           const SizedBox(width: 10),
           Expanded(
