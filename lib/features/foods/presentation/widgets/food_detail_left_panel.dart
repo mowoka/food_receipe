@@ -55,6 +55,7 @@ class FoodDetailLeftPanel extends StatelessWidget {
                 ),
                 const SizedBox(height: 40),
                 FoodDetailButton(
+                  key: const Key('btn_favorite'),
                   onTap: onTapFavorite,
                   showBoxShadow: true,
                   icon: Icons.favorite_sharp,
