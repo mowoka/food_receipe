@@ -52,6 +52,7 @@ class SectionCarousel extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
+                    key: const Key('drink_section'),
                     title,
                     style: const TextStyle(
                       fontSize: 18,

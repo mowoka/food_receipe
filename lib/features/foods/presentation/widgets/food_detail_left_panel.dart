@@ -18,22 +18,26 @@ class FoodDetailLeftPanel extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.symmetric(vertical: 70),
+    return SizedBox(
       width: 100,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          FoodDetailButton(
-            onTap: () {
-              Get.back();
-            },
-            showBoxShadow: false,
-            icon: Icons.arrow_back,
+          Expanded(
+            child: Center(
+              child: FoodDetailButton(
+                key: const Key('btn_back'),
+                onTap: () {
+                  Get.back();
+                },
+                showBoxShadow: false,
+                icon: Icons.arrow_back,
+              ),
+            ),
           ),
           Container(
-            padding: const EdgeInsets.symmetric(vertical: 10),
+            padding: const EdgeInsets.only(top: 10, bottom: 80),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,

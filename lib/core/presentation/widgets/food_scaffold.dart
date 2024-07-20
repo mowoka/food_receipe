@@ -34,6 +34,7 @@ class FoodScaffold extends StatelessWidget {
             unselectedItemColor: Colors.grey.shade400,
             items: const [
               BottomNavigationBarItem(
+                key: Key('bottom_navigation_home'),
                 icon: Icon(
                   Icons.food_bank_outlined,
                   size: 30,
@@ -41,6 +42,7 @@ class FoodScaffold extends StatelessWidget {
                 label: 'home',
               ),
               BottomNavigationBarItem(
+                key: Key('bottom_navigation_favorite'),
                 icon: Icon(
                   Icons.favorite_outline,
                   size: 30,
@@ -48,6 +50,7 @@ class FoodScaffold extends StatelessWidget {
                 label: 'Favorite',
               ),
               BottomNavigationBarItem(
+                key: Key('bottom_navigation_person'),
                 icon: Icon(
                   Icons.person_outline,
                   size: 30,

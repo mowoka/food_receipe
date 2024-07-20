@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:food_recipe/core/presentation/widgets/food_inkwell.dart';
 import 'package:food_recipe/features/foods/presentation/controllers/food_listing_controller.dart';
 import 'package:get/get.dart';
 
@@ -47,22 +46,19 @@ class FoodListingFilter extends StatelessWidget {
           SizedBox(
             height: 50,
             width: 60,
-            child: FoodInkWell(
-              onTap: () {},
-              child: Container(
-                decoration: BoxDecoration(
-                  border: Border.all(
-                    width: 1,
-                    color: Colors.orange,
-                  ),
-                  borderRadius: BorderRadius.circular(6),
-                  color: Colors.white,
-                ),
-                child: const Icon(
-                  Icons.menu,
+            child: Container(
+              decoration: BoxDecoration(
+                border: Border.all(
+                  width: 1,
                   color: Colors.orange,
-                  size: 30,
                 ),
+                borderRadius: BorderRadius.circular(6),
+                color: Colors.white,
+              ),
+              child: const Icon(
+                Icons.menu,
+                color: Colors.orange,
+                size: 30,
               ),
             ),
           ),
