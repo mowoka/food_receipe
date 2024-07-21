@@ -80,6 +80,7 @@ default value become true
 
 ### Unit Testing Result
 
+<img width="1679" alt="Screenshot 2024-07-21 at 22 25 23" src="https://github.com/user-attachments/assets/3ae40826-7436-46bd-9901-1405116597c6">
 
 ## Build APK
 
