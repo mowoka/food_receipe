@@ -65,9 +65,10 @@ dependency this app using is :
 ## Setup
 
 for setup project:
+- flutter pub get
 - Flutter run start
 
-for unit testing
+## Unit Testing
 
 go to file config/testing_config.dart
 default value become true
