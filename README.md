@@ -76,3 +76,19 @@ default value become true
 - flutter test --coverage
 - genhtml coverage/lcov.info -o coverage/html
 - open coverage/html/index.html
+
+
+## Build APK
+
+for setup pelase follow this link:
+[https://docs.flutter.dev/deployment/android](Preparation building apk)
+go to file config/testing_config.dart
+change default value become false
+run command :
+```
+    flutter build apk
+```
+
+## Tested APP
+
+you can download apk file from here: [https://drive.google.com/drive/folders/1VDv9Rz01cl5cj8VufS90-7vAy5yHdQRq?usp=sharing](apk release)
