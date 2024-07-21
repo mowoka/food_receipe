@@ -81,7 +81,7 @@ default value become true
 ## Build APK
 
 for setup pelase follow this link:
-[https://docs.flutter.dev/deployment/android](Preparation building apk)
+[Preparation building apk](https://docs.flutter.dev/deployment/android)
 go to file config/testing_config.dart
 change default value become false
 run command :
@@ -91,4 +91,4 @@ run command :
 
 ## Tested APP
 
-you can download apk file from here: [https://drive.google.com/drive/folders/1VDv9Rz01cl5cj8VufS90-7vAy5yHdQRq?usp=sharing](apk release)
+you can download apk file from here: [APK Realse](https://drive.google.com/drive/folders/1VDv9Rz01cl5cj8VufS90-7vAy5yHdQRq?usp=sharing)
